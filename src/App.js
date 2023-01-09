@@ -5,31 +5,6 @@ import SearchBox from './components/search-box/search-box';
 import CardList from './components/card-list/card-list';
 
 
-// const App = () => {
-//   console.log("render");
-//   const [searchField , setsearchField]= useState(''); //[value, setValue]
-//   console.log(searchField);
-
-//   const onSearchChange = (event)=> {
-//       //searchField is the original list array
-//       const searchFieldString= event.target.value.toLocaleLowerCase() // to make everything into lowercase
-//       setsearchField(searchFieldString);
-//     }
-
-
-
-//   return (
-//     <div className="App">
-//       <h1 className='app-title'>Monster Rolodex</h1>
-//       <SearchBox onChangeHandler={onSearchChange}
-//         placeholder='search monsters'
-//         className='search-box'
-//       />
-//       {/* <CardList monsters={filteredMonsters} /> */}
-//     </div>
-//   )
-// }
-
 class App extends Component {
   constructor() {
     super();
